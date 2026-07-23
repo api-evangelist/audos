@@ -1,8 +1,13 @@
 aid: audos
 name: Audos
-description: 'Audos is a company surfaced as a portfolio company of true-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Audos is a New York-based AI-native startup studio and "publishing house for everyday
+  entrepreneurs," founded in 2024 by Henrik Werdelin and Nicholas Thorne (the team behind Prehype, BarkBox,
+  Ro, and Managed by Q). It helps non-technical solo founders turn expertise into million-dollar AI
+  businesses, giving them AI-powered business-building tools, up to $25,000 in funding, and paid-social
+  distribution in exchange for a ~15% revenue share, aiming to launch startups at massive scale. Audos
+  raised an $11.5M seed round led by True Ventures (with backing from Niklas Zennstrom) and acquired No Cap.
+  Its product surface is a consumer/entrepreneur web platform; the api.audos.com backend is private and
+  auth-gated, with no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/audos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - true-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://audos.com/apple-touch-icon.png
 tags:
 - Company
 - Ai
+- Startup Studio
+- Venture Studio
+- Entrepreneurship
+- AI Agents
+- No-Code
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/audos-domain-security.yml
 - type: Website
   url: https://audos.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
